@@ -1,0 +1,31 @@
+1. Architektura
+DDD/ *Architektura warstwowa / architektura heksagonalna- pytanie rekrutacyjne
+
+2. Wersja Javy
+Java 17
+
+3.Przechowywanie danych
+Map<> / PostgreSQL + Hibernate (+Spring)
+
+4.Zewnętrzne dane
+http
+
+---
+MVP (model view controller)
+
+Wymagania biznesowe
+- chcemy pobierać dane z wielu miast w EU
+	- wybrać api zewnętrzne
+	- jako komunikować z api
+- baza danych
+	- cityName
+	- date
+	- temperature
+	- windSpeed
+	- pressure
+- chcemy uśredniach wyniki
+- chcemy optymalizować pracę aplikacji poprzez cache
+	- podczas startu aplikacji pobieramy X miast
+
+
+
