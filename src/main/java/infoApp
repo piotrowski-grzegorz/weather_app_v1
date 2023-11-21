@@ -17,12 +17,16 @@ Wymagania biznesowe
 - chcemy pobierać dane z wielu miast w EU
 	- wybrać api zewnętrzne
 	- jako komunikować z api
-- baza danych
+- baza danych (prosta wersja)
 	- cityName
 	- date
 	- temperature
 	- windSpeed
 	- pressure
+- baza danych funkcje
+    - dodawanie
+    - usuwanie
+    - modyfikacja
 - chcemy uśredniach wyniki
 - chcemy optymalizować pracę aplikacji poprzez cache
 	- podczas startu aplikacji pobieramy X miast
