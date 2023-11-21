@@ -5,6 +5,7 @@ public class CityDataEntity {
     private String name;
     private WeatherDataEntity weatherDataEntity;
 
+
     public Long getId() {
         return id;
     }
