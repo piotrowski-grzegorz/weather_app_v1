@@ -2,13 +2,14 @@ package db;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 
 public class CityWeatherDb {
 
     private static final Map<Long, CityDataEntity> dataBase = new HashMap<>();
 
-    public CityDataEntity get(Long id) {
-        return dataBase.get(id);
+    public Optional<CityDataEntity> get(Long id) {
+        return Optional.ofNullable(dataBase.get(id));
     }
 
     public void add(CityDataEntity entity) {
